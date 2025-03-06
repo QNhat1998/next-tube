@@ -31,6 +31,7 @@ export const ThumbnailUploadModal = ({
       <UploadDropzone
         endpoint="thumbnailUploader"
         input={{ videoId }}
+
         onClientUploadComplete={onUploadComplete}
       />
     </ResponsiveModal>
